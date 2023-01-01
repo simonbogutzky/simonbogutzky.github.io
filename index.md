@@ -1,3 +1,8 @@
+---
+layout: default
+permalink: /
+---
+
 # About me
 
 ![Me](/images/portrait.jpeg){:style="border-radius: 50%;"}
