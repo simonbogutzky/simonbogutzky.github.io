@@ -3,7 +3,7 @@ plugins:
 - jekyll-remote-theme
 title: HELLO, I am Simon Bogutzky, iOS developer.
 navigation:
-  - title: Home
+  - title: About me
     url: /
   - title: Projects
     url: /projects/
