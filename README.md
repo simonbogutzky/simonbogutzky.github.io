@@ -1,3 +1,3 @@
 # About me
 
-I grew up in Germany and live 50 km from Bremen. I studied Media Informatics and Digital Media in Bremen and finished my academic career with a PhD in Engineering. Since then I work full time as a mobile application developer. My passion is programming in Swift for iOS. 
+I was raised in Germany, where I currently reside just 50 kilometers from Bremen. I received my education in Media Informatics and Digital Media at the University of Bremen, where I later earned my PhD in Engineering. My career has been centered on mobile application development, and I am particularly skilled in programming for iOS using Swift. Outside of work, I am deeply passionate about programming and strive to continually improve my skills in this field.
