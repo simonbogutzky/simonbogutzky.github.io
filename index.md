@@ -3,12 +3,6 @@ layout: default
 permalink: /
 ---
 
-<nav>
-  <a href="/">Home</a> |
-  <a href="/projects/">Projects</a> |
-  <a href="/contact/">Contact</a>
-</nav>
-
 # About me
 
 ![Me](/images/portrait.jpeg){:style="display: block; margin: 0 auto; width: auto; height: 200px; border-radius: 50%;"}
