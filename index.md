@@ -3,11 +3,7 @@ layout: default
 permalink: /
 ---
 
-<nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.url }}">{{ item.title }}</a> |
-  {% endfor %}
-</nav>
+{% include navigation.html %}
 
 # About me
 
