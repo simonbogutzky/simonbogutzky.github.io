@@ -17,9 +17,9 @@ As a founder of out there! communication UG, I was involved in the development o
 Cubodo is a game that involves transporting virtual packages over real-world distances. In the game, players can create their own packages or pick up packages from other players and transport them to different locations. To earn points and progress in the game, players must drop off the packages and add content to them by taking a picture. The app uses MapKit, CoreLocation, and other technologies to track the movement of the packages and allow players to interact with them on a map. My specific contributions to the project included the map interaction, user account management, and the REST-like communication with the backend, which was implemented using the CakePHP framework. Cubodo was developed as a master project at the University of Applied Sciences Bremen, and the success of the project led to the formation of the startup out there! communication UG.
 
 <div class="d-flex justify-content-between">
-  <img src="/images/2012-cubodo-karte-mockup.png" alt="cubodo Map" class="w-100">
-  <img src="/images/2012-cubodo-packet-mockup.png" alt="cubodo Package" class="w-100">
-  <img src="/images/2012-cubodo-profil-mockup.png" alt="cubodo Profile" class="w-100">
+  <img src="/images/2012-cubodo-karte-mockup.png" alt="cubodo Map" class="w-auto" style="max-height: 200px">
+  <img src="/images/2012-cubodo-packet-mockup.png" alt="cubodo Package" class="w-auto" style="max-height: 200px">
+  <img src="/images/2012-cubodo-profil-mockup.png" alt="cubodo Profile" class="w-auto" style="max-height: 200px">
 </div>
 
 ## Easter Egg Hunt Bremen 2011 
