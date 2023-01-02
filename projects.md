@@ -8,6 +8,12 @@ permalink: /projects/
 
 # Projects
 
+## cubodo (2012)
+
+Cubodo is a game that involves transporting virtual packages over real-world distances. In the game, players can create their own packages or pick up packages from other players and transport them to different locations. To earn points and progress in the game, players must drop off the packages and add content to them by taking a picture. The app uses MapKit, CoreLocation, and other technologies to track the movement of the packages and allow players to interact with them on a map. My specific contributions to the project included the map interaction, user account management, and the REST-like communication with the backend, which was implemented using the CakePHP framework. Cubodo was developed as a master project at the University of Applied Sciences Bremen, and the success of the project led to the formation of the startup out there! communication UG.
+
+![cubodo Map](images/2012-cubodo-karte-mockup.png) ![cubodo Package](images/2012-cubodo-packet-mockup.png) ![cubodo Profile](images/2012-cubodo-profil-mockup.png)
+
 ## Easter Egg Hunt Bremen 2011 
 
 I was involved in the development of the Easter Egg Hunt Bremen 2011 app, which was an innovative treasure hunt event. Virtual Easter eggs were scattered across ten areas in Bremen and could be seen on the app within a range of five meters. By tapping on an Easter egg and then shaking their iPhone, players could redeem one of three coupons. The app was programmed in Objective-C and used technologies such as UIKit, MapKit, CoreLocation, and CoreData. My specific contributions to the project included the map interaction, user account management, and the REST-like communication with the backend. The backend was implemented using the CakePHP framework.
