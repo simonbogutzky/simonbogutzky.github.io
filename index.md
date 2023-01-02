@@ -3,8 +3,6 @@ layout: default
 permalink: /
 ---
 
-{% include navigation.html %}
-
 # About me
 
 ![Me](/images/2019-portrait.jpg){:style="display: block; margin: 0 auto; width: auto; height: 200px; border-radius: 50%;"}
