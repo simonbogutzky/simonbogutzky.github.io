@@ -4,8 +4,6 @@ title: "Projects"
 permalink: /projects/
 ---
 
-{% include navigation.html %}
-
 # Projects
 
 ## RiderApp (2014)
