@@ -1,0 +1,65 @@
+body {
+	font-family: Times, serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	font-size: 1.5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	font-size: 1.1rem;
+	line-height: 1.2em;
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:active {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+	color: white;
+	background-image: linear-gradient(currentColor, currentColor);
+	background-repeat: repeat-x;
+	background-size: 1px 1px;
+	background-position: 0 100%;
+	background-position: 0 calc(100% - 0.1em);
+}
+
+.navbar {
+	height: 110px;
+}
+
+.bg-dark {
+	background-color: #2A2829!important;
+}
+
+.navbar-brand {
+	font-family: 'Neue Haas Grotesk Display', sans-serif;
+	font-weight: 500;
+	font-size: 2rem;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Neue Haas Grotesk Display', sans-serif;
+}
+
+h1 {
+	font-size: 6.5rem;
+	font-weight: 700;
+}
+
+h2 {
+	font-size: 4.2rem;
+	font-weight: 700;
+}
+
+.text-primary {
+	color: rgb(37, 53, 81)!important;
+}
+
+.bg-primary {
+	background-color: rgb(37, 53, 81)!important;
+}
+
+.bg-light {
+	background-color: white!important;
+}
