@@ -18,17 +18,13 @@ body {
 	color: white;
 }
 
-.navbar-dark .navbar-nav .nav-item.active .nav-link {
+.nav-item.active .nav-link {
 	color: white;
 	background-image: linear-gradient(currentColor, currentColor);
 	background-repeat: repeat-x;
 	background-size: 1px 1px;
 	background-position: 0 100%;
 	background-position: 0 calc(100% - 0.1em);
-}
-
-.bg-dark {
-	background-color: #2A2829!important;
 }
 
 .navbar-dark .navbar-nav .nav-item {
@@ -79,4 +75,8 @@ h2 {
 
 .bg-light {
 	background-color: white!important;
+}
+
+.bg-dark {
+	background-color: #2A2829!important;
 }
