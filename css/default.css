@@ -27,12 +27,26 @@ body {
 	background-position: 0 calc(100% - 0.1em);
 }
 
-.navbar {
-	height: 110px;
-}
-
 .bg-dark {
 	background-color: #2A2829!important;
+}
+
+.navbar-dark .navbar-nav .nav-item {
+	padding: 0.7rem;
+}
+
+@media (max-width: 992px) {
+
+	.navbar-dark .navbar-nav .nav-link {
+		font-size: calc((3 - 1) * 1.2vw + 1rem);
+		display: inline-block;
+	}
+
+	.navbar-dark .navbar-nav .nav-item {
+		text-align: center;
+		padding: 0.5rem;
+	}
+
 }
 
 .navbar-brand {
