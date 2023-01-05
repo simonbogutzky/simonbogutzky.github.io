@@ -1,11 +1,16 @@
 body {
-	font-family: Times, serif;
+	font-family: 'Times New Roman', Times, serif;
 	font-weight: 400;
+	-webkit-font-smoothing: always;
+	-moz-osx-font-smoothing: always;
+	font-smooth: always;
+	text-rendering: optimizeLegibility;
 	font-style: normal;
 	letter-spacing: .02rem;
 	text-transform: none;
 	line-height: 1.8em;
-	font-size: calc((1.3 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+	font-size: calc((1.5 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
+	text-rendering: optimizeLegibility;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -94,10 +99,6 @@ h3 {
   border-radius: 0;
 	font-family: 'Neue Haas Grotesk Display', sans-serif;
 	font-size: calc((1.2 - 1) * calc(.012 * min(100vh, 900px)) + 1rem);
-}
-
-.btn-no-hover:hover {
-  color: rgb(37, 53, 81)!important;
 }
 
 .form-control-square {
