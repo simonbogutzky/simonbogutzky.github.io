@@ -86,6 +86,7 @@
 		<script src="libs/bootstrap/5.3.0/js/offcanvas-navbar.js"></script>
 		<script>
 			function sendEmail() {
+				console.log("sendMail");
 				var name = document.getElementById("first-name").value + " " + document.getElementById("last-name").value;
 				var email = document.getElementById("email").value;
 				var message = document.getElementById("message").value;
@@ -116,14 +117,14 @@
 					.then(response => {
 						if (response.status === 202) {
 							// email was sent successfully
-							console.log('Email sent successfully');
+							alert('Email sent successfully');
 						} else {
 							// email was not sent
-							console.log('Email not sent');
+							alert('Email not sent');
 						}
 					})
 					.catch(error => {
-						console.log(error);
+						alert(error);
 					});
 			}
 		</script>
