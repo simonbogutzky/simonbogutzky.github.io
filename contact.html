@@ -47,7 +47,7 @@
 					</p>
 				</div>
 				<div class="col-md-5 mx-auto py-5">
-					<form onsubmit="sendEmail(); return false;">
+					<form onsubmit="sendEmail(event);">
 						<div class="form-group row">
 							<label>Name *</label>
 							<div class="col-md-6">
@@ -85,8 +85,9 @@
 		<script src="libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 		<script src="libs/bootstrap/5.3.0/js/offcanvas-navbar.js"></script>
 		<script>
-			function sendEmail() {
+			function sendEmail(event) {
 				console.log("sendMail");
+				event.preventDefault();
 				var name = document.getElementById("first-name").value + " " + document.getElementById("last-name").value;
 				var email = document.getElementById("email").value;
 				var message = document.getElementById("message").value;
