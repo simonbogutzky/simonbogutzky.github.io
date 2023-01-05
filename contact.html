@@ -85,49 +85,51 @@
 		<script src="libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 		<script src="libs/bootstrap/5.3.0/js/offcanvas-navbar.js"></script>
 		<script>
-			function sendEmail(event) {
-				console.log("sendMail");
-				event.preventDefault();
-				var name = document.getElementById("first-name").value + " " + document.getElementById("last-name").value;
-				var email = document.getElementById("email").value;
-				var message = document.getElementById("message").value;
+		function sendEmail(event) {
+			
+			event.preventDefault();
+			
+			var name = document.getElementById("first-name").value + " " + document.getElementById("last-name").value;
+			var email = document.getElementById("email").value;
+			var message = document.getElementById("message").value;
 
-				fetch('https://api.sendgrid.com/v3/mail/send', {
-						method: 'POST',
-						headers: {
-							'Content-Type': 'application/json',
-							'Authorization': 'Bearer ' + process.env.SENDGRID_API_KEY
-						},
-						body: JSON.stringify({
-							personalizations: [{
-								to: [{
-									email: 'me@simonbogutzky.com'
-								}],
-								subject: 'Website Contact Form'
+			fetch('https://api.sendgrid.com/v3/mail/send', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json',
+						'Authorization': 'Bearer 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'
+					},
+					body: JSON.stringify({
+						personalizations: [{
+							to: [{
+								email: 'me@simonbogutzky.com'
 							}],
-							from: {
-								email: email,
-								name: name
-							},
-							content: [{
-								type: 'text/plain',
-								value: message
-							}]
-						})
+							subject: 'Website Contact Form'
+						}],
+						from: {
+							email: email,
+							name: name
+						},
+						content: [{
+							type: 'text/plain',
+							value: message
+						}]
 					})
-					.then(response => {
-						if (response.status === 202) {
-							// email was sent successfully
-							alert('Email sent successfully');
-						} else {
-							// email was not sent
-							alert('Email not sent');
-						}
-					})
-					.catch(error => {
-						alert(error);
-					});
-			}
+				})
+				.then(response => {
+					if (response.status === 202) {
+						// email was sent successfully
+						console.log('Email sent successfully');
+					} else {
+						// email was not sent
+						console.log('Email not sent');
+					}
+				})
+				.catch(error => {
+					console.log(error);
+				});
+		}
+
 		</script>
 	</body>
 </html>
