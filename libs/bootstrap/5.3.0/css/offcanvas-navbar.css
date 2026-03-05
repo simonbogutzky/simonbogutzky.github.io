@@ -1,4 +1,3 @@
-html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
@@ -12,18 +11,19 @@ body {
     position: fixed;
     top: 56px; /* Height of navbar */
     bottom: 0;
-    left: 100%;
+    left: 0;
     width: 100%;
     padding-right: 1rem;
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
     background-color: #2A2829!important;
+    transform: translateX(100%);
     transition: transform .3s ease-in-out, visibility .3s ease-in-out;
   }
   .offcanvas-collapse.open {
     visibility: visible;
-    transform: translateX(-100%);
+    transform: translateX(0);
   }
 }
 

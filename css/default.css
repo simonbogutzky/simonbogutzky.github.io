@@ -37,11 +37,19 @@ h1, h2, h3, h4, .navbar-brand {
 /* ── Navbar ────────────────────────────────────────────── */
 
 .navbar {
+	background-color: transparent;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+	transition: background-color 0.3s ease;
+}
+
+.navbar::before {
+	content: '';
+	position: absolute;
+	inset: 0;
 	background-color: rgba(19, 31, 51, 0.95);
 	backdrop-filter: blur(12px);
 	-webkit-backdrop-filter: blur(12px);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-	transition: background-color 0.3s ease;
+	z-index: -1;
 }
 
 .navbar-brand {
@@ -542,6 +550,17 @@ h1, h2, h3, h4, .navbar-brand {
 
 /* ── Responsive ────────────────────────────────────────── */
 
+@media (max-width: 767px) {
+	.project-card {
+		padding: 1.5rem;
+	}
+
+	.project-screenshots .screenshot {
+		width: calc(33.33% - 0.67rem);
+		max-width: none;
+	}
+}
+
 @media (max-width: 991px) {
 	.hero-section {
 		text-align: center;
@@ -684,7 +703,9 @@ h1, h2, h3, h4, .navbar-brand {
 
 .project-screenshots .screenshot {
 	flex: 1;
+	min-width: 0;
 	max-width: 160px;
+	height: auto;
 	border-radius: 12px;
 	box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
 	display: block;
