@@ -548,6 +548,16 @@ h1, h2, h3, h4, .navbar-brand {
 	margin: 0;
 }
 
+.footer-link {
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 2px;
+}
+
+.footer-link:hover {
+	color: var(--accent);
+}
+
 /* ── Responsive ────────────────────────────────────────── */
 
 @media (max-width: 767px) {
